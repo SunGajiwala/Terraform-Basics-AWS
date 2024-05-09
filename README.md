@@ -10,9 +10,7 @@ To install terraform
 brew tap hashicorp/tap
 brew tap hashicorp/tap
 ```
-> To install terraform for different OS follow
-
-[https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli](Install Homebrew)
+> To install terraform for different OS follow [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 To create an EC2 instance on AWS using terraform follow
 
