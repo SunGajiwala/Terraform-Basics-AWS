@@ -2,6 +2,8 @@ provider "aws" {
     region = "us-east-2"
 }
 
+# Creating EC2 instance
+
 resource "aws_instance" "terraform_instance" {
     ami = var.ami
     instance_type = var.instance_type
@@ -12,6 +14,8 @@ resource "aws_instance" "terraform_instance" {
         id = 1
     }
 }
+
+# Creaing Security group
 
 resource "aws_security_group" "terraform_security_group" {
     name = "terraform-example"

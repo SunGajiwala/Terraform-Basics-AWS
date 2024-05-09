@@ -1,3 +1,5 @@
+# Declaring default values
+
 variable "ami" {
     description = "The ami id used to create EC2 instance"
     type = string
